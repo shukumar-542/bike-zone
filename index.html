@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biker Zone</title>
+    <!-- bootstrap css link -->
+    <link rel="stylesheet" href="style.css/bootstrap.min.css">
+    <!--  css style link -->
+    <link rel="stylesheet" href="./style.css/style.css">
+    <!-- font awesome link -->
+    <script src="https://kit.fontawesome.com/75f3949659.js" crossorigin="anonymous"></script>
+</head>
+
+<body class="container-lg">
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Biker Zone</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fw-semibold">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Bikes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Discount</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Blogs</a>
+                        </li>
+                    </ul>
+                    <button class="btn btn-outline-success ms-2" type="submit">Login</button>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Carousel -->
+
+        <div id="carouselExample" class="carousel slide bg-danger bg-opacity-10 p-5">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="row">
+                        <div class="col-12 col-md-6 d-flex align-items-center justify-content-center ">
+                            <div class="">
+                                <h1>Honda CBR 300R</h1>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, esse exercitationem
+                                    veniam deserunt incidunt impedit iste accusantium eligendi nemo labore!</p>
+                                <button class="btn btn-danger">Buy Now</button>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6">
+                            <img src="images/bike-1.png" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class="col-12 col-md-6 d-flex align-items-center justify-content-center ">
+                            <div class="">
+                                <h1>Honda CBR 300R</h1>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, esse exercitationem
+                                    veniam deserunt incidunt impedit iste accusantium eligendi nemo labore!</p>
+                                <button class="btn btn-danger">Buy Now</button>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6">
+                            <img src="images/bike-2.png" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row gx-3">
+                        <div class="col-12 col-md-6 d-flex align-items-center justify-content-center ">
+                            <div class="">
+                                <h1>Honda CBR 300R</h1>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, esse exercitationem
+                                    veniam deserunt incidunt impedit iste accusantium eligendi nemo labore!</p>
+                                <button class="btn btn-danger">Buy Now</button>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6">
+                            <img src="images/bike-3.png" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon bz-light-red" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next " type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon bz-light-red" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </header>
+
+    <!-- main section -->
+    <main>
+        <!-- hot bike section -->
+        <section class="mt-5 text-center">
+            <h1>Hot Bike In This Year</h1>
+            <p class="text-danger">Best Bike Collection</p>
+            <hr class="w-25 mx-auto border-danger border-2">
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 mt-5 px-5 g-3">
+                <div class="col ">
+                    <img class="w-100" src="images/feature-bike.jpg" alt="">
+                </div>
+                <div class="col ">
+                    <img class="w-75 " src="images/feature-bike.jpg" alt="">
+
+                </div>
+                <div class="col ">
+                    <img class="w-100 " src="images/feature-bike.jpg" alt="">
+
+                </div>
+            </div>
+        </section>
+        <!-- New arrival -->
+        <section class="my-5 bg-info bg-opacity-25 rounded-2">
+            <h1 class="text-center py-5">New Arrival</h1>
+
+            <div class="row row-cols-1 row-cols-md-3 g-4 p-4">
+                <div class="col ">
+                    <div class="card h-100 rounded-4 ">
+                        <img src="images/bike-3.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                additional content. This content is a little bit longer.</p>
+                        </div>
+                        <div class="card-footer">
+                            <button class="btn btn-outline-danger">Purchase</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 rounded-4">
+                        <img src="images/bike-1.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This card has supporting text below as a natural lead-in to additional
+                                content.</p>
+                        </div>
+                        <div class="card-footer">
+                            <button class="btn btn-outline-danger">Purchase</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 rounded-4">
+                        <img src="images/bike-3.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                additional content. This card has even longer content than the first to show that equal
+                                height action.</p>
+                        </div>
+                        <div class="card-footer">
+                            <button class="btn btn-outline-danger">Purchase</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Happy Clients -->
+        <section>
+            <h1 class="text-center mt-5 display-4 fw-semibold">Happy <span class="text-danger"> Clients</span></h1>
+
+            <div class="row row-cols-1 row-cols-md-3 g-4 my-5 text-center">
+                <div class="col">
+                    <div class="card h-100 ">
+                        <img src="images/user-1.png" class="card-img-top w-25 mx-auto mt-5" alt="...">
+                        <div class="card-body ">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in
+                                to additional content. This content is a little bit longer.</p>
+                            <div>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star-half text-warning"></i>
+                            </div>
+                            <h3 class="text-primary mt-3">Tamim Hossain</h3>
+                            <p>Banker</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="images/user-3.png" class="card-img-top w-25 mx-auto mt-5" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in
+                                to additional content</p>
+                            <div>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star-half text-warning"></i>
+                            </div>
+                            <h3 class="text-primary mt-3">Tamim Hossain</h3>
+                            <p>Banker</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="images/user-2.png" class="card-img-top w-25 mx-auto mt-5" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in
+                                to additional content.</p>
+                            <div>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star-half text-warning"></i>
+                            </div>
+                            <h3 class="text-primary mt-3">Tamim Hossain</h3>
+                            <p>Banker</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Frequently Ask Question -->
+        <section class="mt-5 px-5">
+            <h1 class="text-center my-5">Frequently Ask <span class="text-danger">Question</span> </h1>
+            <div class="row row-cols-1 row-cols-md-2 g-5 align-items-center">
+                <div class="cols text-center">
+                    <img src="images/faq.png" class="w-50" alt="">
+                </div>
+                <div class="cols ">
+                    <div class="accordion accordion-flush" id="accordionFlushExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingOne">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseOne" aria-expanded="false"
+                                    aria-controls="flush-collapseOne">
+                                    Accordion Item #1
+                                </button>
+                            </h2>
+                            <div id="flush-collapseOne" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">Placeholder content for this accordion, which is intended to
+                                    demonstrate the <code>.accordion-flush</code> class. This is the first item's
+                                    accordion body.</div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseTwo" aria-expanded="false"
+                                    aria-controls="flush-collapseTwo">
+                                    Accordion Item #2
+                                </button>
+                            </h2>
+                            <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">Placeholder content for this accordion, which is intended to
+                                    demonstrate the <code>.accordion-flush</code> class. This is the second item's
+                                    accordion body. Let's imagine this being filled with some actual content.</div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseThree" aria-expanded="false"
+                                    aria-controls="flush-collapseThree">
+                                    Accordion Item #3
+                                </button>
+                            </h2>
+                            <div id="flush-collapseThree" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">Placeholder content for this accordion, which is intended to
+                                    demonstrate the <code>.accordion-flush</code> class. This is the third item's
+                                    accordion body. Nothing more exciting happening here in terms of content, but just
+                                    filling up the space to make it look, at least at first glance, a bit more
+                                    representative of how this would look in a real-world application.</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- footer -->
+    <footer class="my-5 bg-primary-subtle bg-opacity-100 p-5">
+
+        <div class="row row-cols-1 row-cols-md-2 d-flex justify-content-between">
+            <div class="cols text-center">
+                <div class="d-flex">
+                    <p class="me-5">DownloadNow</p>
+                    <p>License</p>
+                </div>
+                <div class="d-flex">
+                    <p class="me-5">about</p>
+                    <p  class="me-5">feature</p>
+                    <p  class="me-5">pricing</p>
+                    <p >privacy policy</p>
+                </div>
+                <p class="text-start">&copy all right reserved</p>
+            </div>
+            <div class="cols d-flex flex-column flex-end text-center">
+                <p>Get The App</p>
+                <img src="images/android.png" class="w-25 mx-auto mb-2" alt="">
+                <img src="images/ios.png" class="w-25 mx-auto" alt="">
+
+            </div>
+
+        </div>
+    </footer>
+
+    <!-- bootstrap js Link -->
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
